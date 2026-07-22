@@ -1,12 +1,12 @@
-# Rebuilding the Webpage
+# Rebuilding the Webpage with an AI Agent
 
-Here is how to rebuild the page:
+Follow these simple steps to set up your project and let the AI agent build the webpage for you:
 
-1. **Check the original page**: Look at the layout, design, text, and images you need to copy.
-2. **Organize your files**:
-   - Write your page layout in [index.html](file:///Users/timdaly/Desktop/prompts-repo/index.html).
-   - Put your custom colors and styling in [styles.css](file:///Users/timdaly/Desktop/prompts-repo/styles.css).
-   - Save your images and media in the `assets/` folder.
-3. **Build the layout**: Use Bootstrap 5 classes to create rows, columns, and components that match the original page.
-4. **Fine-tune the design**: Match the spacing, fonts, and colors, and make sure it looks clean on both mobile phones and computer screens.
-5. **Check your work**: Compare your page to the original to ensure all text and details match.
+1. **Clone the repository**: Open VS Code, open a new terminal, and clone this repository to your local machine.
+2. **Download original website files**:
+   - Go to the website you want to rebuild in your browser.
+   - Save the webpage as **"Webpage, Complete"** directly into the `temp` folder.
+   - Use the **ImageEye** browser extension to download all images from the page, and save them in the `temp` folder as well.
+3. **Run the AI Agent**:
+   - Once all downloaded files are in the `temp` folder, tell your AI coding agent to execute the instructions in [temp/*PROMPT.md](file:///Users/timdaly/Desktop/prompts-repo/temp/%2APROMPT.md).
+   - The agent will automatically organize and rename all files, create the correct folders, and write the layout and styling code into the empty [index.html](file:///Users/timdaly/Desktop/prompts-repo/index.html) and [styles.css](file:///Users/timdaly/Desktop/prompts-repo/styles.css) files.
